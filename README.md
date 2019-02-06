@@ -6,7 +6,7 @@ As you write your reducers, keep this in mind: Redux requires you to write a pur
 
 ## Bad Reducer
 
-```
+```js
 const initialState = { value: 0 };
 
 const reducer = (state = initialState, action) => {
@@ -21,7 +21,7 @@ const reducer = (state = initialState, action) => {
 
 ## Good Reducer
 
-```
+```js
 const initialState = { value: 0 };
 
 const reducer = (state = initialState, action) => {
